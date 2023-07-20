@@ -4,3 +4,42 @@
     box-sizing: border-box;
     font-family: "work sans", sans-serif;
   }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Noto+Serif:ital,wght@0,600;0,700;0,800;1,500&family=Roboto:wght@400;500;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+ 
+/* --- Variables --- */
+:root {
+    /* colors */
+    --pink-light: #f948b2;
+    --pink-medium: #ff42a5;
+    --pink-hover: #f32b92;
+    --white: #fff;
+    --offwhite: #d1d1d1;
+    --black: #000;
+    --blue: #4ec5f7;
+    --blue-hover: #27b4f1;
+    --dark-purple: #534c64;
+    --gradient: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    --dark-gray: rgba(11, 2, 35, 0.1);
+    --dark-gray-hover: rgba(11, 2, 35, 0.15);
+    /* font-size */
+    --h1-size: 6rem;
+    --h2-size: 3rem;
+    --h3-size: 1.25rem;
+    --paragraph-size: 1.125rem;
+    --line-height-medium: 2.5rem;
+    --line-height-small: 2rem;
+    /* others */
+    --section-padding: 120px;
+    --container: 1440px;
+    --primary-btn-padding: 0.875rem 2rem;
+  }
+  h1 {
+    font-size: var(--h1-size);
+    font-weight: 800;
+    text-transform: uppercase;
+    /*  copied from figma  */
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
